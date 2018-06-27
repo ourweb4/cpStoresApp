@@ -19,5 +19,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Places.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Store.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Zips.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StoreAPI.cs" />
   </ItemGroup>
 </Project>
